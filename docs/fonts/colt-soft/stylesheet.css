@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'ColtSoft';
+    src: url('ColtSoft-Medium.eot');
+    src: url('ColtSoft-Medium.eot?#iefix') format('embedded-opentype'),
+        url('ColtSoft-Medium.woff2') format('woff2'),
+        url('ColtSoft-Medium.woff') format('woff'),
+        url('ColtSoft-Medium.ttf') format('truetype'),
+        url('ColtSoft-Medium.svg#ColtSoft-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+}
+

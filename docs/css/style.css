@@ -1,0 +1,231 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+
+@font-face {
+    font-family: 'ColtSoft';
+    src: url('/fonts/colt-soft/ColtSoft-Medium.eot');
+    src: url('/fonts/colt-soft/ColtSoft-Medium.eot?#iefix') format('embedded-opentype'),
+        url('/fonts/colt-soft/ColtSoft-Medium.woff2') format('woff2'),
+        url('/fonts/colt-soft/ColtSoft-Medium.woff') format('woff'),
+        url('/fonts/colt-soft/ColtSoft-Medium.ttf') format('truetype'),
+        url('/fonts/colt-soft/ColtSoft-Medium.svg#ColtSoft-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+}
+
+.custom-darkblue-text {
+  color: #5387c2 !important;
+  font-family: 'ColtSoft' !important;
+}
+.custom-medblue-text {
+  color: #4f93c8 !important;
+  font-family: 'ColtSoft' !important;
+}
+
+.custom-ltblue-text {
+  color: #77aad7 !important;
+  font-family: 'ColtSoft' !important;
+}
+.custom-darkgrapepurple-text {
+  color: #b93f95 !important;
+  font-family: 'ColtSoft' !important;
+}
+.custom-medgrapepurple-text {
+  color: #b66dab !important;
+  font-family: 'ColtSoft' !important;
+}
+
+.custom-darkpurple-text {
+  color: #735c9f !important;
+  font-family: 'ColtSoft' !important;
+}
+.custom-medpurple-text {
+  color: #a376b3 !important;
+  font-family: 'ColtSoft' !important;
+}
+.custom-ltpurple-text {
+  color: #b4a1cc !important;
+  font-family: 'ColtSoft' !important;
+}
+
+.custom-darkorange-text {
+  color: #e85d42 !important;
+  font-family: 'ColtSoft' !important;
+}
+.custom-medorange-text {
+  color: #f79447 !important;
+  font-family: 'ColtSoft' !important;
+}
+.custom-ltorange-text {
+  color: #f7b068 !important;
+  font-family: 'ColtSoft' !important;
+}
+
+.custom-darkbrown-text {
+  color: #6d2811 !important;
+  font-family: 'ColtSoft' !important;
+}
+.custom-medbrown-text {
+  color: #a96634 !important;
+  font-family: 'ColtSoft' !important;
+}
+.custom-ltbrown-text {
+  color: #d38b55 !important;
+  font-family: 'ColtSoft' !important;
+}
+
+.custom-darkteal-text {
+  color: #2cabb8 !important;
+  font-family: 'ColtSoft' !important;
+}
+.custom-medteal-text {
+  color: #20b1bb !important;
+  font-family: 'ColtSoft' !important;
+}
+.custom-ltteal-text {
+  color: #7bc9d7 !important;
+  font-family: 'ColtSoft' !important;
+}
+
+.custom-darkgreen-text {
+  color: #6f7730 !important;
+  font-family: 'ColtSoft' !important;
+}
+.custom-medgreen-text {
+  color: #989d41 !important;
+  font-family: 'ColtSoft' !important;
+}
+.custom-ltgreen-text {
+  color: #b3ba72 !important;
+  font-family: 'ColtSoft' !important;
+}
+
+.custom-darkgray-text {
+  color: #a9b5b2 !important;
+  font-family: 'ColtSoft' !important;
+}
+.custom-medgray-text {
+  color: #b6c2bf !important;
+  font-family: 'ColtSoft' !important;
+}
+.custom-ltgray-text {
+  color: #d2dcd7 !important;
+  font-family: 'ColtSoft' !important;
+}
+
+.custom-white-text {
+  color: #fcfcfc !important;
+  font-family: 'ColtSoft' !important;
+}
+
+.custom-darkblue {
+  background-color: #5387c2 !important;
+}
+
+.custom-medblue {
+  background-color: #4f93c8 !important;
+}
+
+.custom-ltblue {
+  background-color: #77aad7 !important;
+}
+
+.custom-darkgrapepurple {
+  background-color: #b93f95 !important;
+}
+
+.custom-medgrapepurple {
+  background-color: #b66dab !important;
+}
+
+.custom-darkpurple {
+  background-color: #735c9f !important;
+}
+
+.custom-medpurple {
+  background-color: #a376b3 !important;
+}
+
+.custom-ltpurple {
+  background-color: #b4a1cc !important;
+}
+
+.custom-darkorange {
+  background-color: #e85d42 !important;
+}
+
+.custom-medorange {
+  background-color: #f79447 !important;
+}
+
+.custom-darkbrown {
+  background-color: #6d2811 !important;
+}
+.custom-medbrown {
+  background-color: #a96634 !important;
+}
+.custom-ltbrown {
+  background-color: #d38b55 !important;
+}
+
+.custom-darkteal {
+  background-color: #2cabb8 !important;
+}
+.custom-medteal {
+  background-color: #20b1bb !important;
+}
+.custom-ltteal {
+  background-color: #7bc9d7 !important;
+}
+
+.custom-darkgreen {
+  background-color: #6f7730 !important;
+}
+.custom-medgreen {
+  background-color: #989d41 !important;
+}
+.custom-ltgreen {
+  background-color: #b3ba72 !important;
+}
+
+.custom-darkgray {
+  background-color: #a9b5b2 !important;
+}
+.custom-medgray {
+  background-color: #b6c2bf !important;
+}
+.custom-ltgray {
+  background-color: #d2dcd7 !important;
+}
+
+.custom-black {
+  background-color: #333333 !important;
+}
+
+::-webkit-scrollbar-track { -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); background-color: #F5F5F5; }
+::-webkit-scrollbar { width: 10px; background-color: #F5F5F5; }
+::-webkit-scrollbar-thumb { background-color: #4f93c8; }
+::-moz-selection { background: #4f93c8; color: white; }
+::selection { background: #4f93c8; color: white; }
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+  main {
+    flex: 1 0 auto;
+  }
