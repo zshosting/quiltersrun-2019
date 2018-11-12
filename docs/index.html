@@ -9,6 +9,29 @@
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="css/style.css?v=1.0" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css" />
+	<script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js"></script>
+	<script>
+	window.addEventListener("load", function(){
+	window.cookieconsent.initialise({
+	  "palette": {
+		"popup": {
+		  "background": "#ffffff",
+		  "text": "#050505"
+		},
+		"button": {
+		  "background": "#5387c2",
+		  "text": "#fefefe"
+		}
+	  },
+	  "theme": "edgeless",
+	  "position": "bottom-left",
+	  "content": {
+		"href": "https://quiltersrun.com/privacy-and-cookie.html"
+	  }
+	})});
+	</script>
   <style>
    body {
 	display: flex;
